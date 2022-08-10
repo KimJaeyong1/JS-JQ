@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>진영이의 하루 지출 내역</title>
+    <script>
+        // var price1 = 12000;
+        // var price2 = 2000;
+        // var price3 = 2000;
+
+        var price1 = prompt("교통비 지출 내역", 0);
+        var price2 = prompt("식비 지출 내역", 0);
+        var price3 = prompt("간식비 지출 내역", 0);
+
+        var sumPrice = Number(price1) + Number(price2) + Number(price3);
+        var cal = sumPrice - 10000;
+
+        result = sumPrice > 10000 ? cal + "원 초과" : "돈 관리 잘 했어요!";
+
+        document.write(result);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
